@@ -1,0 +1,29 @@
+h4 {
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  margin-right: 20rem;
+}
+#hoverTiles {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
+  height: 100vh;
+}
+#w4,
+#w5,
+#w6 {
+  width: 33.3vw;
+  height: 100vh;
+}
+#w4 {
+  background-color: brown;
+}
+#w5 {
+  background-color: blue;
+}
+#w6 {
+  background-color: green;
+}
