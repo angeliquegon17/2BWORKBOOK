@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="libraries/p5.min.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="html1.js"
+    ></script>
+    <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+    <link rel="stylesheet" href="html1.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xlf6psa.css" />
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body onload="typeWriter()">
+    <h4 id="typeTool"></h4>
+    <button id="loadPage" onclick="loadPage(); columns()">click me</button>
+    <main id="hoverTiles">
+      <a href="week4/index.html" onmouseover="w4()" onmouseout="w4out()">
+        <div id="w4">
+          <iframe src="/week4/index.html" frameborder="0" id="w4frame"></iframe
+          >week 4
+        </div>
+      </a>
+      <a href="week5/index.html" onmouseover="w5()" onmouseout="w5out()">
+        <div id="w5">
+          <iframe src="/week5/index.html" frameborder="0" id="w5frame"></iframe
+          >week 5
+        </div>
+      </a>
+      <a href="week6/index.html" onmouseover="w6()" onmouseout="w6out()">
+        <div id="w6">
+          <iframe src="/week6/index.html" frameborder="0" id="w6frame"></iframe
+          >week 6
+        </div>
+      </a>
+    </main>
+  </body>
+</html>

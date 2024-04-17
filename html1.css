@@ -1,0 +1,44 @@
+h4 {
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  margin-right: 20rem;
+}
+button {
+  background-color: deepskyblue;
+  color: deeppink;
+  font-family: "lores-12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: 10vw;
+}
+#hoverTiles {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
+  height: 100vh;
+}
+#w4,
+#w5,
+#w6 {
+  width: 33.3vw;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+#w4 {
+  background-color: deeppink;
+}
+#w5 {
+  background-color: deepskyblue;
+}
+#w6 {
+  background-color: orangered;
+}
+#w4frame, #w5frame {
+  width: 33vw;
+  height: 90vh;
+}
